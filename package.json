@@ -35,7 +35,7 @@
     },
     "scripts": {
         "demo": "cross-env REACT_APP_DATA_PROVIDER=rest yarn dev",
-        "dev": "node --trace-warnings ./node_modules/vite/bin/vite.js --host localhost.seaenergy.com",
+        "dev": "vite --host localhost.seaenergy.com",
         "build": "cross-env REACT_APP_DATA_PROVIDER=rest tsc && vite build",
         "type-check": "tsc",
         "preview": "vite preview"
